@@ -143,77 +143,7 @@ body {
 .cta-button:hover {
     background-color: #7f8e98;
 }
-/* Gallery styling */
-/* .gallery {
-    padding: 4rem 1rem;
-    background-color: #f4f4f4;
-    text-align: center;
-}
 
-.gallery h2 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    color: #001e31;
-}
-
-.slider {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-}
-
-.slides {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.slide {
-    min-width: 100%;
-    box-sizing: border-box;
-} */
-
-
-button.prev, button.next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #ffffff;
-    border: none;
-    padding: 1rem;
-    cursor: pointer;
-    font-size: 2rem;
-    border-radius: 50%;
-    z-index: 2;
-}
-
-button.prev {
-    left: 10px;
-}
-
-button.next {
-    right: 10px;
-}
-
-.indicators {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-.indicator {
-    width: 10px;
-    height: 10px;
-    background-color: #bfc7cb;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.indicator.active {
-    background-color: #001e31;
-}
 /* features styling */
 .features {
     padding: 4rem 2rem;
@@ -252,6 +182,13 @@ button.next {
 .feature p {
     font-size: 1rem;
     color: #405665;
+}
+
+.material-symbols-rounded{
+    color: #a700ff;
+    margin: 2px;
+    padding: 2px;
+    font-size: 25px !important;
 }
 
 /* Galleryy Styling======================== */
