@@ -420,13 +420,13 @@ button.testimonial-next {
 
 .about-image {
     flex: 1 1 40%;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
-.about-image img {
+.about-image video {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /* Footer ============================ */

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link rel="icon" href="asset/jubilee logo.png">
   </head>
   <body>
     <nav class="navbar">
@@ -224,8 +225,10 @@
             </ul>
           </div>
           <div class="about-image">
-            <img src="about-us.jpg" alt="About Us" />
-          </div>
+            <video controls oncontextmenu="return false;">
+              <source src="asset/product video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>     </div>
         </div>
       </div>
     </section>
@@ -258,8 +261,7 @@
           >
         </p>
         <p>
-          <a class="address" href="#"
-            >
+          <a class="address" href="https://www.google.com/maps/place/Jubilee+Table+Water/@8.9706254,7.3788912,17z/data=!3m1!4b1!4m6!3m5!1s0x104e73e36b4f3d4b:0x3d04672f07b110da!8m2!3d8.9706201!4d7.3814661!16s%2Fg%2F11vr9tjd4p?entry=ttu" target="_blank">
             Find us <i>
               <span class="material-symbols-rounded"
                 >pin_drop</span
@@ -280,5 +282,14 @@
     ></script>
     <script src="javascript code/script.js"></script>
     <script src="javascript code/active.js"></script>
+    <script>  // Disable right-click context menu on the entire page
+      document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+      });
+      document.addEventListener('keydown', function(e) {
+      if (e.ctrlKey && (e.key === 's' || e.key === 'S' || e.key === 'u' || e.key === 'U' || e.key === 'p' || e.key === 'P')) {
+        e.preventDefault();
+      }
+    });</script>
   </body>
 </html>
